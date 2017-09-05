@@ -114,7 +114,8 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, '.tumblr.com') ||
 		dnsDomainIs(host, '.tumblr.co') ||
 		dnsDomainIs(host, '.googlevideo.com') ||
-		dnsDomainIs(host, '.cdninstagram.com')
+		dnsDomainIs(host, '.cdninstagram.com') ||
+		dnsDomainIs(host, '.duolingo.com') 
 		)	
 	{	
 	return autoproxy;
