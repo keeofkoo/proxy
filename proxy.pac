@@ -92,17 +92,17 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, '.youtu.be') ||
 		dnsDomainIs(host, '.wikipedia.org') ||
 		dnsDomainIs(host, '.wikimedia.org') ||
-        dnsDomainIs(host, '.wikibooks.org') ||
-        dnsDomainIs(host, '.wikiversity.org') ||
-        dnsDomainIs(host, '.wikisource.org') ||
-        dnsDomainIs(host, '.wikivoyage.org') ||
-        dnsDomainIs(host, '.wikinews.org') ||
-        dnsDomainIs(host, '.wikiquote.org') ||
-        dnsDomainIs(host, '.wiktionary.org') ||
-        dnsDomainIs(host, '.wikidata.org') ||
-        dnsDomainIs(host, '.mediawiki.org') ||
-        dnsDomainIs(host, '.wikimedia.org') ||
-        dnsDomainIs(host, '.messenger.com') ||
+		dnsDomainIs(host, '.wikibooks.org') ||
+		dnsDomainIs(host, '.wikiversity.org') ||
+		dnsDomainIs(host, '.wikisource.org') ||
+		dnsDomainIs(host, '.wikivoyage.org') ||
+		dnsDomainIs(host, '.wikinews.org') ||
+		dnsDomainIs(host, '.wikiquote.org') ||
+		dnsDomainIs(host, '.wiktionary.org') ||
+		dnsDomainIs(host, '.wikidata.org') ||
+		dnsDomainIs(host, '.mediawiki.org') ||
+		dnsDomainIs(host, '.wikimedia.org') ||
+		dnsDomainIs(host, '.messenger.com') ||
 		dnsDomainIs(host, '.archive.org') ||
 		dnsDomainIs(host, '.bandwagonhost.com') ||
 		dnsDomainIs(host, '.dropbox.com') ||
