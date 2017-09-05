@@ -10,7 +10,8 @@ function FindProxyForURL(url, host) {
 	{
 		return 'DIRECT';
 	} 
-	else if (shExpMatch(host, '*.google*.*') ||
+	else if (
+		shExpMatch(host, '*.google*.*') ||
 		dnsDomainIs(host, '.google.com') ||
 		dnsDomainIs(host, '.applift.com') ||
 		dnsDomainIs(host, '.awsstatic.com') ||
@@ -83,6 +84,7 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, 'datastax.github.io') ||
 		dnsDomainIs(host, '.cloudfront.net') ||
 		dnsDomainIs(host, 'aws.amazon.com') ||
+		dnsDomainIs(host, '.aws.amazon.com') ||
 		dnsDomainIs(host, '.amazonaws.com') ||
 		dnsDomainIs(host, '.amazonwebservices.com') ||
 		dnsDomainIs(host, '.youtube.com') ||
@@ -100,7 +102,19 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, '.wikidata.org') ||
         dnsDomainIs(host, '.mediawiki.org') ||
         dnsDomainIs(host, '.wikimedia.org') ||
-        dnsDomainIs(host, '.messenger.com')
+        dnsDomainIs(host, '.messenger.com') ||
+		dnsDomainIs(host, '.archive.org') ||
+		dnsDomainIs(host, '.bandwagonhost.com') ||
+		dnsDomainIs(host, '.dropbox.com') ||
+		dnsDomainIs(host, '.fb.com') ||
+		dnsDomainIs(host, '.fbsbx.com') ||
+		dnsDomainIs(host, '.akamaihd.net') ||
+		dnsDomainIs(host, '.akamai.net') ||
+		dnsDomainIs(host, '.dolimg.com') ||
+		dnsDomainIs(host, '.tumblr.com') ||
+		dnsDomainIs(host, '.tumblr.co') ||
+		dnsDomainIs(host, '.googlevideo.com') ||
+		dnsDomainIs(host, '.cdninstagram.com')
 		)	
 	{	
 	return autoproxy;
