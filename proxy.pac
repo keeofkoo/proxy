@@ -115,6 +115,8 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, '.tumblr.co') ||
 		dnsDomainIs(host, '.googlevideo.com') ||
 		dnsDomainIs(host, '.cdninstagram.com') ||
+		dnsDomainIs(host, '.googlesource.com') ||
+		dnsDomainIs(host, '108.177.97.82') ||
 		dnsDomainIs(host, '.duolingo.com') 
 		)	
 	{	
