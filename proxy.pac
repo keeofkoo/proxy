@@ -118,7 +118,8 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, '.googlesource.com') ||
 		dnsDomainIs(host, '108.177.97.82') ||
 		dnsDomainIs(host, '.duolingo.com') ||
-		dnsDomainIs(host, '.middcreate.net') 
+		dnsDomainIs(host, '.live.com') ||
+		dnsDomainIs(host, 'onedrive.live.com')
 		)	
 	{	
 	return autoproxy;
