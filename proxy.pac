@@ -123,6 +123,7 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, '.blogspot.com') ||
 		dnsDomainIs(host, '.blogspot.jp') ||
 		dnsDomainIs(host, '.blogspot.nl') ||
+		dnsDomainIs(host, '.blogspot.kr') ||
 		dnsDomainIs(host, '.pinterest.com')
 		)	
 	{	
