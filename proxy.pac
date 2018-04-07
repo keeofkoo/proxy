@@ -119,7 +119,11 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, '108.177.97.82') ||
 		dnsDomainIs(host, '.duolingo.com') ||
 		dnsDomainIs(host, '.live.com') ||
-		dnsDomainIs(host, 'onedrive.live.com')
+		dnsDomainIs(host, 'onedrive.live.com') ||
+		dnsDomainIs(host, '.blogspot.com') ||
+		dnsDomainIs(host, '.blogspot.jp') ||
+		dnsDomainIs(host, '.blogspot.nl') ||
+		dnsDomainIs(host, '.pinterest.com')
 		)	
 	{	
 	return autoproxy;
